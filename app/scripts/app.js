@@ -33,24 +33,24 @@ angular
       })
       .when('/fizzbuzz', {
         templateUrl: 'views/fizzbuzz.html',
-        controller: 'fizzBuzzCtrl',
-        controllerAs: 'fizzbuzz'
+        controller: 'FizzBuzzCtrl',
+        controllerAs: 'fizzBuzz'
       })
-      .when('/foobarqix', {
-        templateUrl: 'views/foobarqix.html',
-        controller: 'fooBarQixCtrl',
-        controllerAs: 'fooBarQix'
-      })
-      .when('/romanNumeral', {
-        templateUrl: 'views/romanNumeral.html',
-        controller: 'romanNumeralCtrl',
-        controllerAs: 'romanNumeral'
-      })
-      .when('/tictactoe', {
-        templateUrl: 'views/tictactoe.html',
-        controller: 'ticTacToeCtrl',
-        controllerAs: 'ticTacToe'
-      })
+      //.when('/foobarqix', {
+      //  templateUrl: 'views/foobarqix.html',
+      //  controller: 'FooBarQixCtrl',
+      //  controllerAs: 'FooBarQix'
+      //})
+      //.when('/romanNumeral', {
+      //  templateUrl: 'views/romanNumeral.html',
+      //  controller: 'RomanNumeralCtrl',
+      //  controllerAs: 'RomanNumeral'
+      //})
+      //.when('/tictactoe', {
+      //  templateUrl: 'views/tictactoe.html',
+      //  controller: 'TicTacToeCtrl',
+      //  controllerAs: 'TicTacToe'
+      //})
 
       .otherwise({
         redirectTo: '/'

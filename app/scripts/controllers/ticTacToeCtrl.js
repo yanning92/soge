@@ -8,7 +8,7 @@
  * Controller of the sogeApp
  */
 angular.module('sogeApp')
-  .controller('ticTacToeCtrl', function () {
+  .controller('TicTacToeCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

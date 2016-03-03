@@ -8,7 +8,7 @@
  * Controller of the sogeApp
  */
 angular.module('sogeApp')
-  .controller('fooBarQixCtrl', function () {
+  .controller('FooBarQixCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

@@ -8,7 +8,7 @@
  * Controller of the sogeApp
  */
 angular.module('sogeApp')
-  .controller('romanNumeralCtrl', function () {
+  .controller('RomanNumeralCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

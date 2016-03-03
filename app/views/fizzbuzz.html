@@ -1,1 +1,8 @@
-<p>This is the fizz buzz view.</p>
+<div class="message errors">{{error}}<div>
+<form ng-submit="fizzBuzzValue()">
+  <input type="number" ng-model="number" >
+  <input type="submit" value="fizz buzz">
+
+</form>
+
+<div class="message">{{value}}</div>
