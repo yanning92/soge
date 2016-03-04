@@ -9,12 +9,6 @@
  */
 angular.module('sogeApp')
   .controller('FizzBuzzCtrl', function ($scope) {
-    $scope.toto = 'titi'
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ]
     $scope.fizzBuzzValue = function fizzBuzzValue() {
       $scope.error = ''
       $scope.value = ''
